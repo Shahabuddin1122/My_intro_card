@@ -1,0 +1,51 @@
+
+.custom-shape {
+    background: linear-gradient(rgb(119, 44, 211),rgb(255, 0, 238)) ;
+    border-radius: 30% 70% 52% 48% / 21% 51% 49% 79% ;
+    width: 66%;
+    height: 100%;
+    margin-top: 56px;
+    margin-left: 207px;
+}
+.divinfo {
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: 'Roboto Slab', serif;
+
+}
+.hello{
+    font-size: 70px;
+
+}
+.name{
+    font-size: 50px;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 40px;
+}
+.moreinfo {
+    font-size: 20px;
+    padding-top: 5px;
+}
+.buttons button{
+    border-radius: 14px;
+    padding: 5px;
+    color: white;
+    background-color: dodgerblue;
+    border-color: gray;
+    font-size: 13px;
+    margin: 0px 13px;
+    cursor: pointer;
+
+}
+.buttons button:hover {
+    color: dodgerblue;
+    background-color:  white;
+}
+.row {
+    height: 440px;
+}
