@@ -1,14 +1,7 @@
 .nav-item {
     padding: 0px 10px;
 }
-.custom-shape {
-    background: linear-gradient(rgb(119, 44, 211),rgb(255, 0, 238)) ;
-    border-radius: 30% 70% 52% 48% / 21% 51% 49% 79% ;
-    width: 66%;
-    height: 75%;
-    margin-top: 56px;
-    margin-left: 207px;
-}
+
 .divinfo {
 display: flex;
 justify-content: center;
@@ -57,3 +50,86 @@ font-family: 'Roboto Slab', serif;
 .hero {
     background: red;
 }
+
+.intro {
+    margin-bottom: 20px;
+  }
+  
+  .figure {
+    display: flex;
+    align-items: center;
+  }
+  
+  .figure img {
+    width: 75%;
+  }
+  
+  /* Styles for mobile devices */
+  @media (max-width: 767px) {
+    .figure {
+      height: 250px;
+    }
+    .text {
+        font-size: 12px;
+    }
+    
+    .figure img {
+      margin-left: 0;
+    }
+    .custom-shape {
+        display: none;
+    }
+  }
+  
+  /* Styles for desktop devices */
+  @media (min-width: 768px) {
+    .intro {
+      height: 500px;
+      width: 102%;
+    }
+    .text {
+        font-size: 13px;
+    }
+    .figure {
+      height: 100%;
+    }
+    .img2 {
+        height: 100%;
+        margin-left: -10px;
+    }
+    .img1 {
+
+        float: right;
+        margin-right: 60px;
+    }
+    .custom-shape {
+        background: linear-gradient(rgb(119, 44, 211),rgb(255, 0, 238)) ;
+        border-radius: 30% 70% 52% 48% / 21% 51% 49% 79% ;
+        width: 66%;
+        height: 58%;
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+  }
+  
+  /* Styles for large screens */
+  @media (min-width: 1200px) {
+    .intro {
+      height: 500px;
+    }
+    .text {
+        font-size: 17px;
+    }
+    .img2 {
+        height: 100%; 
+        margin-left: 50px;
+    }
+    .custom-shape {
+        background: linear-gradient(rgb(119, 44, 211),rgb(255, 0, 238)) ;
+        border-radius: 30% 70% 52% 48% / 21% 51% 49% 79% ;
+        width: 66%;
+        height: 75%;
+        margin-top: 8%;
+        margin-left: 30%;
+    }
+  }
